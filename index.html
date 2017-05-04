@@ -1,31 +1,49 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/common.css" />
     <link rel="stylesheet" href="css/landing.css" />
-    <link rel="stylesheet" href="css/spin.css" />
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
   </head>
   <body>
     <header>
-      <div class="header">
-        <div class="lfloat temp logo">
-          <img src="images/logo-svg.svg">
-        </div>
-        <a href="https://github.com/vishalknitian/funcjs">
-          <div class="rfloat github">
-            <img class="lfloat githubIcon" src="images/icons/github.png" />
-            Github
+      <nav class="navbar navbar-default">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-6 logo navbar-header">
+              <a href="#">
+                <img alt="Brand" src="images/logo-svg.svg">
+              </a>
+            </div>
+            <div class="col-xs-6">
+              <a href="https://github.com/vishalknitian/funcjs">
+                <div class="pull-right github">
+                  <img class="lfloat githubIcon" src="images/icons/github.png" />
+                  Github
+                </div>
+              </a>
+            </div>
           </div>
-        </a>
-      </div>
+        </div>
+      </nav>
     </header>
-    <div class="page-wrap">
-      <div class="tempComingSoon">
-        Coming Soon!
-      </div>
-      <div class="spinner">
-        <span>JS</span>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="page-wrap">
+            <div class="tempComingSoon">
+              Coming Soon!
+            </div>
+            <div class="spinner">
+              <span>JS</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          Hello
+        </div>
       </div>
     </div>
     <footer>

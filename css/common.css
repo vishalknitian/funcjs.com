@@ -1,16 +1,3 @@
-body{
-	font-family:arial, sans-serif;
-	font-size:100%;
-}
-
-.lfloat {
-	float: left;
-}
-
-.rfloat {
-	float: right;
-}
-
 footer + div {
     display: none !important;
 }
